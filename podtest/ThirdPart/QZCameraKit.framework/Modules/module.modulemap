@@ -1,0 +1,6 @@
+framework module QZCameraKit {
+  umbrella header "QZCameraKit.h"
+
+  export *
+  module * { export * }
+}
