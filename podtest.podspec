@@ -39,10 +39,10 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  #s.subspec 'podtest' do |pt|
-   #   pt.vendored_frameworks = 'podtest/ThirdPart/testpod.framework'
-   # end
-   s.subspec 'QZCameraKit' do |qz|
-       qz.vendored_frameworks = 'podtest/ThirdPart/QZCameraKit.framework'
-     end
+  s.subspec 'podtest' do |pt|
+      pt.vendored_frameworks = 'podtest/ThirdPart/testpod.framework'
+    end
+   #s.subspec 'QZCameraKit' do |qz|
+   #    qz.vendored_frameworks = 'podtest/ThirdPart/QZCameraKit.framework'
+   #  end
 end
