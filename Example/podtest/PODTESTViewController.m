@@ -7,6 +7,7 @@
 //
 
 #import "PODTESTViewController.h"
+#import "LibraryObject.h"
 
 @interface PODTESTViewController ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    LibraryObject* tm1=[[LibraryObject alloc]init];
+
+    NSString* pod = [tm1 getTitle];
+    NSLog(@"pod test = %@",pod);
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
