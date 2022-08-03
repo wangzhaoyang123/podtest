@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'podtest'
-  s.version          = '0.5.0'
+  s.version          = '0.6.0'
   s.summary          = 'A test pod.'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #s.vendored_frameworks = 'podtest/ThirdPart/Podtest.framework'
 
     s.vendored_frameworks = [
-   #   'podtest/ThirdPart/Podtest.framework',
+      'podtest/ThirdPart/Podtest.framework',
       'podtest/ThirdPart/SampleFramework.framework']
 
   

@@ -8,7 +8,10 @@
 
 #import "PODTESTViewController.h"
 #import "LibraryObject.h"
+#import <SampleFramework/Sample.h>
+
 #import <Podtest/Podadd.h>
+
 
 
 @interface PODTESTViewController ()
@@ -25,10 +28,15 @@
     NSString* pod = [tm1 getTitle];
     NSLog(@"pod test = %@",pod);
     
-    Podadd* add=[[Podadd alloc]init];
+    [Sample logTest];
 
-    NSString* addns = [add getTitle];
-    NSLog(@"pod test = %@",addns);
+    
+   // Podadd* add=[[Podadd alloc]init];
+
+ //   NSString* addns = [add getTitle];
+//    NSLog(@"pod test = %@",addns);
+    
+  //  [Sample logTest];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
