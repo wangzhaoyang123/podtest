@@ -37,7 +37,7 @@ TODO: Add long description of the pod here.
 
 
   
-  # s.resource_bundles = {
+  # s.resource_bundles = {  podtest/ThirdPart/Podtest.framework
   #   'podtest' => ['podtest/Assets/*.png']
   # }
 
