@@ -4,11 +4,11 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - podtest (0.7.0)
+  - podtest (0.8.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
-  - podtest (~> 0.7.0)
+  - podtest (~> 0.8.0)
 
 SPEC REPOS:
   https://github.com/wangzhaoyang123/podtestspecs.git:
@@ -18,8 +18,8 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  podtest: 4456c72328f4f8af205e2cd5280e4e98981955d9
+  podtest: a32e2d6f60d6cccd1f2ea050a2c34c813c5fc35d
 
-PODFILE CHECKSUM: 217775ad5f03c50be34a804d48e50bcb34209b3c
+PODFILE CHECKSUM: 1ffc0480d3dacf117c539209fbea46edb79ab144
 
 COCOAPODS: 1.11.2

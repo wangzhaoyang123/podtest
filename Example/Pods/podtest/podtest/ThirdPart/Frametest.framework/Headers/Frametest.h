@@ -14,5 +14,6 @@ FOUNDATION_EXPORT double FrametestVersionNumber;
 FOUNDATION_EXPORT const unsigned char FrametestVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Frametest/PublicHeader.h>
+#import <Frametest/Podadd.h>
 
 

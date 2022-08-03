@@ -11,9 +11,11 @@
 #import <SampleFramework/Sample.h>
 
 #import <Frametest/Frametest.h>
+#import <Frametest/Podadd.h>
 
 
-#import <Podtest/Podtest.h>
+
+//#import <Podtest/Podtest.h>
 
 
 
@@ -31,13 +33,13 @@
     NSString* pod = [tm1 getTitle];
     NSLog(@"pod test = %@",pod);
     
-    [Sample logTest];
+  //  [Sample logTest];
 
     
-   // Podadd* add=[[Podadd alloc]init];
+    Podadd* add=[[Podadd alloc]init];
 
- //   NSString* addns = [add getTitle];
-//    NSLog(@"pod test = %@",addns);
+    NSString* addns = [add getTitle];
+    NSLog(@"pod test = %@",addns);
     
   //  [Sample logTest];
 	// Do any additional setup after loading the view, typically from a nib.
