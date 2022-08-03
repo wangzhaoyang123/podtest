@@ -628,7 +628,7 @@
 			};
 			name = Release;
 		};
-		52121379B6866812634495D73E5EC81A /* Debug */ = {
+		397C118BA991A6BB803211FE31A22F0B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6EE744E4545ECC40418940C05B6DE713 /* podtest.debug.xcconfig */;
 			buildSettings = {
@@ -644,7 +644,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/podtest/podtest-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/podtest/podtest-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/podtest/podtest.modulemap";
 				PRODUCT_MODULE_NAME = podtest;
@@ -659,9 +659,9 @@
 			};
 			name = Debug;
 		};
-		61C03A607763AD311FBF8DB9197BC9AE /* Release */ = {
+		3AC44A2B2F449DAE567CB7D1A5DC7482 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 137FAB87D1C28C482783860D0380DE60 /* Pods-podtest_Example.release.xcconfig */;
+			baseConfigurationReference = 4C3EE920819B78D3DF4E64FEF8F047DF /* Pods-podtest_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -675,7 +675,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-podtest_Example/Pods-podtest_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-podtest_Example/Pods-podtest_Example.modulemap";
@@ -687,13 +687,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+		5C572C26083AE05FDE5539CF10D7F0DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -743,7 +742,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -785,41 +784,9 @@
 			};
 			name = Debug;
 		};
-		9D521F15CBF4A22BF7DBEE9917351119 /* Release */ = {
+		8DDBCE95977E964AD2EBCFC3409401EB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3ED14EABDBAD771D1FDA1228047EDC39 /* podtest.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/podtest/podtest-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/podtest/podtest-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/podtest/podtest.modulemap";
-				PRODUCT_MODULE_NAME = podtest;
-				PRODUCT_NAME = podtest;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B755749E5DB87A23E7BE10A209AD719E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 565437885C5A1ED77ED4B36B8D2996D1 /* Pods-podtest_Tests.debug.xcconfig */;
+			baseConfigurationReference = C3DD950D9F8F0AE3C8B22A9A3E6DEF94 /* Pods-podtest_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -833,7 +800,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-podtest_Tests/Pods-podtest_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-podtest_Tests/Pods-podtest_Tests.modulemap";
@@ -845,14 +812,15 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		CD496981712A2E3B12D420CA7D67ECD7 /* Debug */ = {
+		9B5501A13358FC40230C58BE5A6C1D82 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C3EE920819B78D3DF4E64FEF8F047DF /* Pods-podtest_Example.debug.xcconfig */;
+			baseConfigurationReference = 137FAB87D1C28C482783860D0380DE60 /* Pods-podtest_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -866,7 +834,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-podtest_Example/Pods-podtest_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-podtest_Example/Pods-podtest_Example.modulemap";
@@ -878,12 +846,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+		B0B871789266B089F807893EED18B0DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -936,7 +905,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -949,9 +918,9 @@
 			};
 			name = Debug;
 		};
-		EDA30A4103B7B9229084376B4922A3CE /* Release */ = {
+		F76AD9F2C2E0562A4094236962571314 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3DD950D9F8F0AE3C8B22A9A3E6DEF94 /* Pods-podtest_Tests.release.xcconfig */;
+			baseConfigurationReference = 565437885C5A1ED77ED4B36B8D2996D1 /* Pods-podtest_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -965,7 +934,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-podtest_Tests/Pods-podtest_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-podtest_Tests/Pods-podtest_Tests.modulemap";
@@ -976,6 +945,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE691B61C3ADBDF0AD3FE5F736EA6526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ED14EABDBAD771D1FDA1228047EDC39 /* podtest.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/podtest/podtest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/podtest/podtest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/podtest/podtest.modulemap";
+				PRODUCT_MODULE_NAME = podtest;
+				PRODUCT_NAME = podtest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -998,8 +998,8 @@
 		34035662AE8E68B93AEF3DF65B4D504A /* Build configuration list for PBXNativeTarget "Pods-podtest_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD496981712A2E3B12D420CA7D67ECD7 /* Debug */,
-				61C03A607763AD311FBF8DB9197BC9AE /* Release */,
+				3AC44A2B2F449DAE567CB7D1A5DC7482 /* Debug */,
+				9B5501A13358FC40230C58BE5A6C1D82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1007,8 +1007,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
-				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+				B0B871789266B089F807893EED18B0DB /* Debug */,
+				5C572C26083AE05FDE5539CF10D7F0DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1016,8 +1016,8 @@
 		744CE0EA8D3C4EF3D2091647E521F632 /* Build configuration list for PBXNativeTarget "podtest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				52121379B6866812634495D73E5EC81A /* Debug */,
-				9D521F15CBF4A22BF7DBEE9917351119 /* Release */,
+				397C118BA991A6BB803211FE31A22F0B /* Debug */,
+				FE691B61C3ADBDF0AD3FE5F736EA6526 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1025,8 +1025,8 @@
 		871CC59866EB22E3C64A48C5DFB0BBCA /* Build configuration list for PBXNativeTarget "Pods-podtest_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B755749E5DB87A23E7BE10A209AD719E /* Debug */,
-				EDA30A4103B7B9229084376B4922A3CE /* Release */,
+				F76AD9F2C2E0562A4094236962571314 /* Debug */,
+				8DDBCE95977E964AD2EBCFC3409401EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -65,6 +65,7 @@
 		BAEC547FB01F137DA0294005 /* Pods-podtest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-podtest_Example.release.xcconfig"; path = "Target Support Files/Pods-podtest_Example/Pods-podtest_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BC366AE5F158CBED93A6B148 /* Pods_podtest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_podtest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C83B48A1B0C066C385E9F2D2 /* Pods_podtest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_podtest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E17C3A3A289A20DC00900D64 /* Podtest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Podtest.framework; path = Pods/podtest/podtest/ThirdPart/Podtest.framework; sourceTree = "<group>"; };
 		F4CDB891DA0A7B42EED8043C /* Pods-podtest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-podtest_Tests.release.xcconfig"; path = "Target Support Files/Pods-podtest_Tests/Pods-podtest_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FAAB121B1AA00E9DC0F63B97 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,6 +120,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E17C3A3A289A20DC00900D64 /* Podtest.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -517,9 +519,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G8P2BW6493;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/podtest/podtest/ThirdPart",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "podtest/podtest-Prefix.pch";
 				INFOPLIST_FILE = "podtest/podtest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -534,9 +542,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G8P2BW6493;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/podtest/podtest/ThirdPart",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "podtest/podtest-Prefix.pch";
 				INFOPLIST_FILE = "podtest/podtest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

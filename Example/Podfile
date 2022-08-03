@@ -1,8 +1,8 @@
 use_frameworks!
 source 'https://github.com/wangzhaoyang123/podtestspecs.git'
-platform :ios, '10.0'
+platform :ios, '10.1'
 target 'podtest_Example' do
-  pod 'podtest', '~> 0.3.0'
+  pod 'podtest', '~> 0.4.0'
 
   target 'podtest_Tests' do
     inherit! :search_paths

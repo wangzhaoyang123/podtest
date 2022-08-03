@@ -8,7 +8,7 @@
 
 #import "PODTESTViewController.h"
 #import "LibraryObject.h"
-#import <Podtest/Podtest.h>
+#import <Podtest/Podadd.h>
 
 
 @interface PODTESTViewController ()
