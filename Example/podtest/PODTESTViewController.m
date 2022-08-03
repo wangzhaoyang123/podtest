@@ -10,7 +10,10 @@
 #import "LibraryObject.h"
 #import <SampleFramework/Sample.h>
 
-#import <Podtest/Podadd.h>
+#import <Frametest/Frametest.h>
+
+
+#import <Podtest/Podtest.h>
 
 
 
